@@ -1,0 +1,27 @@
+.bb-linsa
+    include ./block/header_nav.pug
+    .uk-cover(hidden)
+        video(class="uk-cover-object autoplay loop" width="100%" height="100%")
+                source(src="../img/presentation.mp4" type="")
+    .container.uk-text-center
+        h1.product-name.uk-margin-auto ICO-кампания экранизации романа В. Пелевина «Empire V»
+        p.block-description.uk-margin-auto 
+            | Присоединяйтесь к приватной продаже токенов Bablos и  
+            | получите бонус 30%, а так же прибыль от проката и продажи цифрового контента.
+        .bb-countdown.uk-margin-auto
+            span.bb-countdown-name До старта Pre-ICO оcталось
+            hr.bb-countdown-line
+            div(class="bb-cotdown-time uk-child-width-1-4", uk-grid, uk-countdown="date: 2018-05-04T06:09:09+00:00")
+                div
+                    .bb-countdown-time-name ДНЕЙ
+                    div.bb-countdown-time-number.uk-countdown-number.uk-countdown-days 18
+                div
+                    .bb-countdown-time-name ЧАСОВ
+                    div.bb-countdown-time-number.uk-countdown-number.uk-countdown-hours 18
+                div
+                    .bb-countdown-time-name МИНУТ
+                    div.bb-countdown-time-number.uk-countdown-number.uk-countdown-minutes 18
+                div
+                    .bb-countdown-time-name СЕКУНД
+                    div.bb-countdown-time-number.uk-countdown-number.uk-countdown-seconds 18
+        a.bb-scroll-down(uk-icon="chevron-down" href="#target" uk-scroll)

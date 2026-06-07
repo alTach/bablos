@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+.bb-pre-ico-date{
+    &-text{
+        display: inline-block;
+        vertical-align: middle;
+        &:before{
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+    }
+    &-name{
+        font-size: 17px;
+    }
+    &-value{
+        margin-left: 5px;
+        color: $primary-color;
+        font-size: 25px;
+        &-wrapper{
+            margin-top: 0;
+            img{
+                margin-top: -7px;
+            }
+        }
+    }
+    .uk-card-body{
+        padding-top: 0; 
+    }
+}
+.block-chain-category{
+    &-title{
+        color: $primary-color;
+    }
+    &-coin{
+        width: 170px;
+        height: 168px;
+    }
+}

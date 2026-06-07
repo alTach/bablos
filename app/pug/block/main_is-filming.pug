@@ -1,0 +1,10 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+include ../mixin/block-description
+
++wrapper("bb-is-filming uk-light uk-flex", "test-easing")
+    +block-name("идут съёмки")
+    .bb-is-filming-video(style="width: 300px", uk-parallax="opacity: 0,1; viewport: 0.2")
+    
+    -var text = "«Empire V» – история молодого человека, сделавшего головокружительную карьеру, благодаря перевополощению в вампира. Фон этой истории – сенсационное открытие устройства человеческого общества как питательной среды сообщества вампиров."
+    +block-description(text)

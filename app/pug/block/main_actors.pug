@@ -1,0 +1,13 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+
++wrapper("bb-actors")
+    +block-name("актёры")
+    div(class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid)
+        each card, index in [{role: "РАМА", name: "ПАВЕЛ ТАБАКОВ"}, {role: "ГЕРА", name: "НОВАЯ ЗВЕЗДА"}, {role: "МИТРА", name: "OXXXIMIRON"}, {role: "ИЕГОВА", name: "КОНСТАНТИН БОГОМОЛОВ"}, {role: "БАЛЬДР", name: "АНТОН АДАСИНСКИЙ"}, {role: "ИШТАР", name: "НАТАЛЬЯ АНДРЕЙЧЕНКО"}, {role: "ВААЛ", name: "ЮРИЙ СТОЯНОВ"}, {role: "ЛОКИ", name: "АНДРЕЙ СМИРНОВ"}, {role: "БРАМА", name: "ВЛАДИМИР ЕПИФАНЦЕВ"}, {role: "Энлиль", name: "Вениамин смехов"}, {role: "МАМА РАМЫ", name: "МАРИНА ЗУДИНА"}]
+            div
+                div(class="uk-card uk-card-body bb-actor-card", uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2")
+                    .actor-img-wrapper
+                        img.actor-img(src="../../img/actors/act" + (index + 1) + ".png")
+                    p.actor-role=card.role
+                    span.actor-name=card.name

@@ -1,0 +1,20 @@
+/****************/
+/***is-Filming***/
+/****************/
+.bb-is-filming {
+  width: 100%;
+  background: url("./img/is-filming.png");
+  background-size: cover; 
+  .block-description{
+    width: 989px;
+    font-size: 21px;
+  }
+}
+
+.bb-is-filming-video {
+  max-width: 780px;
+  height: 360px;
+  background-color: #ffffff1f;
+  opacity: 0.1;
+  margin: 56px auto 63px;
+}

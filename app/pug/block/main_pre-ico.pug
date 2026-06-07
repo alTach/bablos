@@ -1,0 +1,19 @@
+include ../mixin/wrapper
+include ../mixin/block-description
+include ../mixin/block-subtitle
+include ../mixin/date-card
+include ../mixin/card-rotate-bg
+
++wrapper("bb-main_pre-ico")
+
+    -var text = "PRE-ICO — 30% БОНУС";
+    +block-subtitle(text)
+
+    -text = "Приватное размещение будет проводиться в рамках ограниченной аллокации по единой цене."
+    +block-description(text, true)
+    div(class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center bb-pre-ico-date" uk-grid)
+        each card, index in [{name: "Дата начала", value: "10 марта 2018"}, {name: "Дата завершения", value: "10 апреля 2018"}]
+            +date-card(card.name, card.value)   
+    div(class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center block-chain-category-list" uk-grid)
+            each card, index in [{name: "Количество токенов", value: "Б 2 700 000"}, {img: "../../img/bablo-coin-obverse.png"}, {name: "Цена за токен", value: "0,9 USD"}]
+                +card-rotate-bg(card.value, card.name, card.img)

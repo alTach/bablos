@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+.actor{
+    &-name{
+        opacity: 0.5;
+        color: $main-color;
+        font-size: 21px;
+    }
+    &-role{
+        color: $primary-color;
+        margin: 27px 0 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: $futura;
+    }
+    &-img{
+        width: 100%;
+        &-wrapper{
+            border-radius: 92px;
+            overflow: hidden;
+            height: 179px;
+        }
+    }
+}

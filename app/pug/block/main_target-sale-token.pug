@@ -1,0 +1,21 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+include ../mixin/block-description
+
++wrapper("bb-target-sale-token")
+    -var text = "ЦЕЛЬ ПРОДАЖИ ТОКЕНОВ"
+    +block-subtitle(text)
+
+    -text = "Целью сборов являются производство и рекламная кампания фильма, а так же привлечение новых звёзд и партнёров, что в свою очередь увеличит доходность для держателей токенов."
+    +block-description(text) 
+
+    div(class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center bb-target-sale" uk-grid)
+            each card, index in [{name: "SoftCap", value: "$5 100 000"}, {name: "HardCap", value: "$7 000 000"}]
+                div(class="uk-card uk-card-body bb-target-sale-card")
+                        span
+                            img.target-sale-card-img(src="../../img/target-sale-token-" + (index+1) + ".png", uk-parallax="opacity: 0,1; scale: 2; viewport: 0.3")
+                        p.target-sale-card-value(uk-parallax="opacity: 0,1; viewport: 0.4")= card.name
+                        p.target-sale-card-name(uk-parallax="opacity: 0,1; viewport: 0.4")= card.value
+    
+    -text = "При достижении HardCap средства буду направлены на дополнительную компьютерную графику и поддержку международного проката, что, безусловно, повысит прибыль для инвесторов."
+    +block-description(text)

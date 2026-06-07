@@ -1,0 +1,29 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+include ../mixin/block-description
+include ../mixin/block-subtitle
+include ../mixin/card-rotate-bg
+
++wrapper("bb-block-chain-finance")
+    -var text = "«Empire V» — первый блокбастер, финансируемый с помощью технологии Блокчейн";
+    +block-name(text)
+    p.block-chain-title(uk-parallax="opacity: 0,1; scale: 2 ; viewport: 0.5") 
+        |Общее количество токенов Bablos
+    p.block-chain-count-money(uk-parallax="opacity: 0,1; scale: 2 ; viewport: 0.4") 
+        img.icon-coin(src="../../img/icon-coin.png", alt="")
+        span  5 100 000
+    div(class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center block-chain-category-list" uk-grid)
+            each card in [{type: "Тип", name: "ERC20"}, {type: "Платформа", name: "Ethereum"}, {type: "Символ", name: "BLS"}]
+                +card-rotate-bg(card.name, card.type)
+                
+    -text = "Размещение токенов будет проводиться в 2 этапа, приватный (Private Placement) и публичный (Token Sale)."
+    +block-description(text)
+
+    -text = "8% nокенов распределяются между эдвайзерами, звездами проекта Ампир V, и направляются на баунти-программы; 9% остаются в резервном фонде на поддержание курса Bablos и развитие платформы.В продажу поступают 4 565 000 токенов Bablos."
+    +block-description(text)
+    
+    -text = "ПЕРСПЕКТИВЫ"
+    +block-subtitle(text)  
+    
+    -text = "Мы создаём модель финансирования кино с помощью технологии блокчейн и смарт-контрактов, которая будет работать после премьеры фильма «Ампир V»  в виде платформы Bablos."
+    +block-description(text)

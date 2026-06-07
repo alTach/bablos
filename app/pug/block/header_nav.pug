@@ -1,0 +1,30 @@
+.header-navigation(uk-sticky)
+    nav(class="uk-navbar-container uk-margin bb-navigation", uk-navbar) 
+        .uk-navbar-left
+            a(class="uk-navbar-item uk-logo", href="#") 
+                img(src="../../img/header-logo-var-1.png", alt="" class="bb-logo-var-1 uk-animation-fade")
+                img(src="../../img/header-logo-var-2.png", alt="" class="bb-logo-var-2 uk-animation-fade uk-hidden")
+        .uk-navbar-right
+            ul(class="uk-navbar-nav")
+                li
+                    a(href="#" class="bb-nav__a") О фильме
+                li
+                    a(href="#" class="bb-nav__a") Условия
+                li
+                    a(href="#" class="bb-nav__a") Дорожная карта
+                li
+                    a(href="#" class="bb-nav__a") WhitePaper
+                li
+                    a(href="#" class="bb-nav__a") Команда
+                li
+                    a(href="#" class="bb-nav__a") 
+                        span(uk-icon="icon:  triangle-down")
+                    div(class="uk-navbar-dropdown")
+                        ul(class="uk-nav uk-navbar-dropdown-nav")
+                            li
+                                a Россия
+                            li
+                                a Украина
+            .uk-navbar-item
+                    form(action="javascript:void(0)")
+                        button(class="uk-button bb-btn bb-btn_nav uk-padding-small uk-padding-remove-top uk-padding-remove-bottom") Приcоединиться      

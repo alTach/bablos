@@ -1,0 +1,29 @@
+include ../mixin/wrapper
+include ../mixin/block-subtitle
+
+-var arr = [];
+-var  text;
+-arr.push({count: 4, name: "about-us-media", text: "МЕДИА О НАС"})
+-arr.push({count: 3, name: "partner", text: "ПАРТНЁРЫ"})
+
++wrapper("bb-main_about-us")
+    each row, index in arr
+        -text = row.text
+        +block-subtitle(text)
+        div(class="uk-grid-large uk-child-width-1-" + row.count + "@s uk-flex-center uk-text-center" uk-grid)
+            -var temp = 0
+            while temp < row.count
+                div
+                    img(src="../../img/" + row.name + "-" + (temp++) + ".png", alt="" class="uk-card uk-card-body bb-whats-can-do-bablos-card", uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5")
+
+
+    -text = "ЮРИДИЧЕСКОЕ СТРУКТУРИРОВАНИЕ"
+    +block-subtitle(text)
+    
+    -arr.push("С целью защиты прав инвесторов будет создана компания, выпускающая токены, которая будет действовать полностью в рамках правового поля, и будет предоставлять инвесторам право на получение прибыли и безопасность их инвестиций. ")
+    -arr.push("Эта компания будет существовать специально для работы с инвесторами и выпуска токенов на основании специального соглашения. ")
+    -arr.push("Вся деятельность компании, выпускающей фильм и заключающей договоры о прокате (операционная деятельность), отделена от компании-эмитента, вкупе с любыми претензиями к первой компании. Гарантии получения прибыли компанией-эмитентом будут заложены в соглашение с компанией-правообладателем.")
+
+    -var i = 1;
+    while i++<arr.length
+        p.about-us-lawyer-description(uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5")= arr[i]

@@ -1,0 +1,5 @@
+mixin block-description(text, hasParagraph)
+    if hasParagraph
+        p.block-description(uk-parallax="opacity: 0,1; viewport: 0.3")= text
+    else
+        .block-description(uk-parallax="opacity: 0,1; viewport: 0.3")= text

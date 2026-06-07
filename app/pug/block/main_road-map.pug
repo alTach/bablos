@@ -1,0 +1,43 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+
+-var active = 0;
+-var list = [];
+-list.push({name: "МАРТ 2018", text: ["Старт ICO проекта Ампир V","Регистрация Компании","Приватный пре-сейл"]});
+-list.push({name: "2 квартал 2018", text: ["Выпуск токена Bablos","Публичное размещение"]});
+-list.push({name: "2-4 квартал 2019", text: ["Продолжение съемок фильма «Ампир V»","Post-Poduction и компьютерная графика"]});
+-list.push({name: "Конец 2018", text: ["Завершение производства фильма «Ампир V»","Масштабные рекламная и пиар кампании"]});
+-list.push({name: "1 квартал 2019", text: ["Премьера «Ампир V»","Начало начисления прибыли на токены Bablos"]});
+-list.push({name: "2019", text: ["Накопительная доходность от продажи прав на проект: кинопроката; он-лайн продажи; ТВ; DVD."]});
+-list.push({name: "2 квартал 2019", text: ["Разработка основного функционала платформы","Привлечение на платформу новых проектов"]});
+
+
++wrapper("bb-road-map")
+    +block-name("ДОРОЖНАЯ КАРТА")
+    //- div(class="uk-grid-collapse uk-child-width-expand@s uk-text-center road-map-card-list-wrapper" uk-grid)
+    //-     .road-map-card-steper
+            
+    //-     each side, index in list
+    //-         div(class="side-" +index)
+    //-             each card in side
+    //-                 div(class="road-map-card-list")
+    //-                     div.road-map-card-wrapper.uk-clearfix
+    //-                         div.road-map-card
+    //-                             p.road-map-card-name= card.name
+    //-                             p.road-map-card-description= card.description
+    //-                         hr        
+    div.road-card-container#qweqwe
+        each row, index in list
+            div(class="uk-text-center road-card-list", uk-grid, uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5")
+                div(class = index==active ? "uk-width-auto road-card circle-active" : "uk-width-auto road-card" )
+                    div(class="uk-card uk-card-body road-card_circle uk-card-body") 
+                div(class="uk-width-auto road-card road-card_date")
+                    div(class="uk-card uk-card-body")= row.name
+                div(class="uk-width-expand road-card road-card_line")
+                    div(class="uk-card uk-card-body") 
+                        hr
+                div(class="uk-width-1-2 road-card road-card_text")
+                    div(class="uk-card uk-card-body")
+                        ul
+                            each item in row.text
+                                li= item

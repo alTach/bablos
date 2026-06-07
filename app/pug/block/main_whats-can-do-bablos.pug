@@ -1,0 +1,23 @@
+include ../mixin/wrapper
+include ../mixin/block-name
+include ../mixin/block-description
+
++wrapper("bb-whats-can-do-bablos")
+    article
+    -var text = "ЧТО МОЖНО ДЕЛАТЬ С BABLOS?"
+        +block-name(text)
+
+        -text = "Токен Bablos предоставляет право на участие в прибыли компании от проката фильма. Все держатели Bablos имеют право  на получение прибыли пропорционально количеству приобретенных токенов.  50% прибыли компании, полученной в результате российского и мирового проката фильма и продаж прав на цифровые и ТВ-показы будет ежемесячно распределяться между держателями всех токенов Bablos."
+        +block-description(text)
+
+        -var n=0
+        while n<4
+            img(src="../../img/oval-" + n + ".png", alt="", class="bb-oval bb-oval-" + n++)
+
+        div(class="uk-grid-large uk-child-width-1-4@s uk-flex-center uk-text-center bb-whats-can-do-bablos-card-list" uk-grid)
+            each card, index in ["Хранить для получения прибыли от проката фильма ", "Использовать в дальнейшем на платформе", "Использовать на платформе для доступа к он-лайн премьере «Ампир V»", "Обменять на другие криптовалюты или фиатные деньги"]
+                div
+                    div(class="uk-card uk-card-body bb-whats-can-do-bablos-card")
+                        img.bb-whats-can-do-bablos-card-img(src="../../img/whats-can-do-bablos-" + index + ".png", uk-parallax="opacity: 0,1; scale: 2; viewport: 0.4")
+                        p.bb-whats-can-do-bablos-name(uk-parallax="opacity: 0,1; viewport: 0.4")= card
+                        

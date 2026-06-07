@@ -1,0 +1,30 @@
+.bb-whats-can-do-bablos{
+    background: url("./img/whats-can-do-bablos.png");
+    background-size: cover;
+    .container{
+        position: relative;
+    }
+    h3{
+        padding-top: 100px;
+    }
+    &-name{
+        font-size: 17px;
+        margin-top: 65px;
+    }
+    &-card-list{
+        margin-bottom: 100px;
+    }
+    .uk-card{
+        padding: 0;
+    }
+    .block-description{
+        font-size: 17px;
+        margin-bottom: 90px;
+    }
+    &-card-img{
+        height: calc(119px/2);
+    }
+    .bb-oval{
+        position: absolute;
+    }
+}

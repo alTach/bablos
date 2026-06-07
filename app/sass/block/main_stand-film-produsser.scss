@@ -1,0 +1,29 @@
+.bb-stand-film-produsser{
+    background: url("./img/stand-film-produsser.png");
+    background-size: cover;
+    h3{
+        margin-bottom: 50px;
+    }
+
+    &-name{
+        font-size: 23px;
+    }
+    &-img-back{
+        width: calc(179px / 2);
+        margin: 61px 0px 0px;
+        opacity: 0.3;
+    }
+    &-img-front{
+        position: relative;
+        display: block;
+        margin: -118px auto 100px;
+        width: 135px;
+    }
+    &-card-list{
+        margin-bottom: 62px;
+    }
+    .uk-card{
+        background: #ffffff1c;
+        padding: 40px 0 20px 0;
+    }
+}

@@ -1,0 +1,37 @@
+@import "./variables.scss";
+/***Override**/
+.uk-navbar-nav > li > a {
+  color: $main-color;
+}
+.uk-divider-icon{
+  width: 960px;
+  height: 47px;
+  background: none;
+  position: relative;
+  &:before{
+    right: calc(50% + 40px);
+    border-color: #242424;
+  }
+  &:after{
+    left: calc(50% + 40px);
+    border-color: #242424;
+  }
+}
+.uk-cover{
+  max-width: 1318px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  transform: initial;
+  margin: auto;
+}
+.uk-navbar-nav>li>a{
+  text-transform: none;
+}
+*+p{
+  margin-top: 0;
+}
+.uk-list>li:nth-child(n+2), .uk-list>li>ul{
+  margin-top: 0;
+}

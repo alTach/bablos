@@ -1,0 +1,16 @@
+include ../mixin/wrapper
+include ../mixin/block-description
+include ../mixin/block-subtitle
+-var text = "";
+
++wrapper("bb-close-cripto-premiere")
+    img(class="bb-close-cripto-premiere-img" src="../../img/close-premier.png", alt="", uk-parallax="opacity: 0,1; viewport: 0.4")
+    
+    -text = "ЗАКРЫТАЯ КРИПТО-ПРЕМЬЕРА"
+    +block-subtitle(text)
+
+    -text = "Первые 400 человек, купивших минимальный пакет в 100 Bablos получат приглашниие на закрытую крипто-премьеру до официальной премьеры фильма."
+    +block-description(text, true)
+    //- p.block-description 
+
+    button(class="uk-button bb-btn uk-padding-small uk-padding-remove-top uk-padding-remove-bottom", uk-parallax="opacity: 0,1; viewport: 0.4") Приcоединиться      

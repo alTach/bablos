@@ -1,0 +1,25 @@
+.bb-target-sale-token{
+    .block-description {
+        width: 739px;
+        &:last-child{
+            margin-top: 39px;
+        }
+    }
+    .uk-card-body{
+        padding: 0
+    }
+}
+.target-sale-card {
+    &-value{
+        margin: 34px 0 16px;
+        font-size: 17px;
+    }
+    &-name {
+        margin-top: 0;
+        font-size: 35px;
+    }
+    &-img{
+        width: calc(61px / 2);
+        height: calc(54px / 2);
+    }
+}

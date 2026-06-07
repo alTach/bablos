@@ -1,0 +1,62 @@
+@import "./variables.scss";
+
+.bb-road-map {
+    background: url("./img/road-map.png");
+    background-size: cover;
+    .block-name{
+        margin-bottom: 82px;
+    }
+    .bb-linsa{
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .road-card{
+        padding: 0;
+        &>div{
+            padding: 0;
+        }
+        &-list{
+            align-items: center;
+            padding-left: 40px;
+            margin-top: 10px;
+        }
+        &_circle{
+            width: 12px;
+            height: 12px;
+            background: $main-color;
+            border-radius: 50%;
+        }
+        &_date{
+            margin-left: 26px;
+            font-size: 17px;
+        }
+        &_line{
+            padding: 16px
+        }
+        &_text{
+            text-align: left;
+            border: 1px solid gray;
+        }
+        &-container{
+            width: 865px;
+            margin: 0 auto;
+            margin-bottom: 66px;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                left: 6px;
+                display: block;
+                background: white;
+                height: 100%;
+                width: 1px;
+            }
+        }
+    }
+}
+.circle-active{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px !important;
+    margin-left: -5px;
+    margin-right: -5px
+}

@@ -1,0 +1,649 @@
+/***Override**/
+.uk-navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.uk-divider-icon {
+  width: 960px;
+  height: 47px;
+  background: none;
+  position: relative;
+}
+.uk-divider-icon:before {
+  right: calc(50% + 40px);
+  border-color: #242424;
+}
+.uk-divider-icon:after {
+  left: calc(50% + 40px);
+  border-color: #242424;
+}
+
+.uk-cover {
+  max-width: 1318px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  -webkit-transform: initial;
+      -ms-transform: initial;
+          transform: initial;
+  margin: auto;
+}
+
+.uk-navbar-nav > li > a {
+  text-transform: none;
+}
+
+* + p {
+  margin-top: 0;
+}
+
+.uk-list > li:nth-child(n+2), .uk-list > li > ul {
+  margin-top: 0;
+}
+
+/*GLOBAL*/
+body {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 10px;
+  background: #0c0c0c;
+  font-family: "pfdindisplaypro";
+  line-height: 25px;
+}
+
+h1,
+h3 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Futura-Bold";
+}
+
+h3 {
+  padding-top: 85px;
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #ffffff;
+  font-size: 21px;
+  text-align: center;
+}
+
+a {
+  font-family: "pfdindisplaypro" !important;
+}
+
+.bb-btn {
+  width: 275px;
+  background: #9c2e1b;
+  color: #ffffff !important;
+}
+
+.bb-linsa {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+main section .bb-linsa > .container {
+  width: 1084px;
+  margin: 0 auto;
+}
+
+.block-description {
+  max-width: 844px;
+  margin: 0 auto 53px;
+  text-align: center;
+}
+.block-description:last-child {
+  margin-bottom: 70px;
+}
+
+.block-subtitle {
+  padding-top: 80px;
+  font-size: 35px;
+  font-family: "Futura-Bold";
+  text-transform: uppercase;
+}
+
+.divider-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 18px;
+  height: 22px;
+}
+
+section.section-bg {
+  background-position: center;
+}
+
+/***Fonts***/
+@font-face {
+  font-family: "pfdindisplaypro";
+  src: url("../fonts/pfdindisplaypro-reg.eot");
+  src: url("../fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-reg.woff") format("woff"), url("../fonts/pfdindisplaypro-reg.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/futura.eot");
+  src: url("../fonts/futura.eot?#iefix") format("embedded-opentype"), url("../fonts/futura.woff") format("woff"), url("../fonts/futura.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("../fonts/Futura-Bold.eot");
+  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold.woff") format("woff"), url("../fonts/Futura-Bold.ttf") format("truetype");
+}
+/*nav*/
+.bb-navigation {
+  max-width: 1276px;
+  margin: 0 auto;
+}
+
+.bb-navigation {
+  background: none !important;
+}
+
+.bb-btn_nav {
+  width: 180px;
+}
+
+.bb-logo-var-1 {
+  margin-bottom: -130px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-navigation_black {
+  background: #0c0c0c;
+}
+
+header {
+  position: relative;
+  background: url("../img/header_bg.png");
+  background-size: cover;
+}
+
+header .bb-linsa {
+  margin-top: -1px;
+}
+
+.uk-civer_top {
+  margin-top: 46px;
+}
+
+.product-name {
+  width: 778px;
+}
+
+header .block-description {
+  width: 838px;
+}
+
+header .bb-linsa > .container {
+  padding-top: 180px;
+  position: relative;
+}
+
+.bb-countdown {
+  width: 379px;
+}
+.bb-countdown-name {
+  font-size: 21px;
+}
+.bb-countdown-line {
+  height: 3px;
+  background: white;
+  border: none;
+  opacity: 0.1;
+}
+.bb-countdown-time-number {
+  font-family: "pfdindisplaypro";
+  font-size: 45px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.bb-countdown-time-name {
+  opacity: 0.49;
+  font-weight: 700;
+}
+
+.bb-scroll-down {
+  margin: 80px 0 50px 0;
+}
+.bb-scroll-down svg {
+  width: 70px;
+  height: 50px;
+}
+
+/****************/
+/***is-Filming***/
+/****************/
+.bb-is-filming {
+  width: 100%;
+  background: url("./img/is-filming.png");
+  background-size: cover;
+}
+.bb-is-filming .block-description {
+  width: 989px;
+  font-size: 21px;
+}
+
+.bb-is-filming-video {
+  max-width: 780px;
+  height: 360px;
+  background-color: rgba(255, 255, 255, 0.1215686275);
+  opacity: 0.1;
+  margin: 56px auto 63px;
+}
+
+.actor-name {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 21px;
+}
+.actor-role {
+  color: #9c2e1b;
+  margin: 27px 0 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Futura-Bold";
+}
+.actor-img {
+  width: 100%;
+}
+.actor-img-wrapper {
+  border-radius: 92px;
+  overflow: hidden;
+  height: 179px;
+}
+
+.bb-block-chain-finance {
+  text-align: center;
+}
+.bb-block-chain-finance h3 {
+  width: 914px;
+}
+.bb-block-chain-finance .block-description {
+  width: 655px;
+}
+.bb-block-chain-finance .block-description:first-child {
+  margin-top: 58px;
+  margin-bottom: 0 !important;
+}
+.bb-block-chain-finance .block-chain-title {
+  font-size: 8px;
+}
+.bb-block-chain-finance .icon-coin {
+  width: 10;
+  height: 25px;
+}
+.bb-block-chain-finance .block-chain-count-money {
+  font-size: 25px;
+  margin-top: 16px;
+}
+
+.block-chain-title {
+  font-size: 17px;
+  margin-top: 68px;
+  margin-bottom: 0;
+}
+.block-chain-count-money {
+  width: 600px;
+  margin: 0 auto;
+  color: #9c2e1b;
+  font-family: "Futura-Bold";
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.block-chain-count-money .icon-coin {
+  margin-top: -9px;
+}
+.block-chain-category {
+  height: 159px;
+  margin-bottom: 0;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.block-chain-category-list {
+  margin: 60px auto 58px;
+}
+.block-chain-category-title {
+  font-size: 17px;
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+.block-chain-category-name {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.block-chain-category-text-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.block-chain-category-img {
+  width: 69px;
+  height: 79px;
+}
+
+.bb-target-sale-token .block-description {
+  width: 739px;
+}
+.bb-target-sale-token .block-description:last-child {
+  margin-top: 39px;
+}
+.bb-target-sale-token .uk-card-body {
+  padding: 0;
+}
+
+.target-sale-card-value {
+  margin: 34px 0 16px;
+  font-size: 17px;
+}
+.target-sale-card-name {
+  margin-top: 0;
+  font-size: 35px;
+}
+.target-sale-card-img {
+  width: 30.5px;
+  height: 27px;
+}
+
+.bb-pre-ico-date-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.bb-pre-ico-date-text:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.bb-pre-ico-date-name {
+  font-size: 17px;
+}
+.bb-pre-ico-date-value {
+  margin-left: 5px;
+  color: #9c2e1b;
+  font-size: 25px;
+}
+.bb-pre-ico-date-value-wrapper {
+  margin-top: 0;
+}
+.bb-pre-ico-date-value-wrapper img {
+  margin-top: -7px;
+}
+.bb-pre-ico-date .uk-card-body {
+  padding-top: 0;
+}
+
+.block-chain-category-title {
+  color: #9c2e1b;
+}
+.block-chain-category-coin {
+  width: 170px;
+  height: 168px;
+}
+
+.bb-token-distribution .block-subtitle {
+  margin-bottom: 78px;
+}
+.bb-token-distribution-card:last-child {
+  padding: 0;
+}
+.bb-token-distribution-text {
+  text-align: left;
+}
+.bb-token-distribution-text li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.bb-token-distribution-value {
+  width: 20%;
+  font-size: 19px;
+}
+.bb-token-distribution-description {
+  width: 67%;
+}
+.bb-token-distribution-volume {
+  text-align: left;
+  font-size: 35px;
+}
+
+.bb-close-cripto-premiere {
+  text-align: center;
+}
+.bb-close-cripto-premiere-img {
+  margin-top: 52px;
+}
+.bb-close-cripto-premiere .block-subtitle {
+  padding-top: 50px;
+}
+.bb-close-cripto-premiere .block-description {
+  width: 726px;
+}
+.bb-close-cripto-premiere .bb-btn {
+  margin-bottom: 100px;
+}
+
+.bb-stand-film-produsser {
+  background: url("./img/stand-film-produsser.png");
+  background-size: cover;
+}
+.bb-stand-film-produsser h3 {
+  margin-bottom: 50px;
+}
+.bb-stand-film-produsser-name {
+  font-size: 23px;
+}
+.bb-stand-film-produsser-img-back {
+  width: 89.5px;
+  margin: 61px 0px 0px;
+  opacity: 0.3;
+}
+.bb-stand-film-produsser-img-front {
+  position: relative;
+  display: block;
+  margin: -118px auto 100px;
+  width: 135px;
+}
+.bb-stand-film-produsser-card-list {
+  margin-bottom: 62px;
+}
+.bb-stand-film-produsser .uk-card {
+  background: rgba(255, 255, 255, 0.1098039216);
+  padding: 40px 0 20px 0;
+}
+
+.bb-whats-can-do-bablos {
+  background: url("./img/whats-can-do-bablos.png");
+  background-size: cover;
+}
+.bb-whats-can-do-bablos .container {
+  position: relative;
+}
+.bb-whats-can-do-bablos h3 {
+  padding-top: 100px;
+}
+.bb-whats-can-do-bablos-name {
+  font-size: 17px;
+  margin-top: 65px;
+}
+.bb-whats-can-do-bablos-card-list {
+  margin-bottom: 100px;
+}
+.bb-whats-can-do-bablos .uk-card {
+  padding: 0;
+}
+.bb-whats-can-do-bablos .block-description {
+  font-size: 17px;
+  margin-bottom: 90px;
+}
+.bb-whats-can-do-bablos-card-img {
+  height: 59.5px;
+}
+.bb-whats-can-do-bablos .bb-oval {
+  position: absolute;
+}
+
+.bb-road-map {
+  background: url("./img/road-map.png");
+  background-size: cover;
+}
+.bb-road-map .block-name {
+  margin-bottom: 82px;
+}
+.bb-road-map .bb-linsa {
+  background: rgba(0, 0, 0, 0.7);
+}
+.bb-road-map .road-card {
+  padding: 0;
+}
+.bb-road-map .road-card > div {
+  padding: 0;
+}
+.bb-road-map .road-card-list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+.bb-road-map .road-card_circle {
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.bb-road-map .road-card_date {
+  margin-left: 26px;
+  font-size: 17px;
+}
+.bb-road-map .road-card_line {
+  padding: 16px;
+}
+.bb-road-map .road-card_text {
+  text-align: left;
+  border: 1px solid gray;
+}
+.bb-road-map .road-card-container {
+  width: 865px;
+  margin: 0 auto;
+  margin-bottom: 66px;
+  position: relative;
+}
+.bb-road-map .road-card-container:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  display: block;
+  background: white;
+  height: 100%;
+  width: 1px;
+}
+
+.circle-active {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 4px !important;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.bb-main_about-us {
+  padding-bottom: 100px;
+}
+
+.about-us-lawyer-description {
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+main {
+  background: #0c0c0c;
+}
+
+footer section > .container {
+  width: 1239px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  margin-bottom: 38px;
+  text-align: center;
+}
+.footer-top-card {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer-top .subscribe {
+  float: left;
+  width: 276px;
+}
+.footer-top .subscribe-name_left {
+  text-align: left;
+}
+.footer-top .in-social-icon {
+  margin: 0 8px;
+  border: 1px solid #9c2e1b;
+  padding: 7px;
+  border-radius: 50%;
+  color: #9c2e1b;
+  background: url(../../img/send-icon.svg);
+}
+.footer-top .to-discussion {
+  float: right;
+  color: #9c2e1b;
+}
+.footer-top .to-discussion label[for=footer-region-ru] {
+  margin-right: 21px;
+}
+
+.subscribe-input {
+  padding-left: 0;
+  padding-right: 90px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid red;
+}
+.subscribe-input:focus {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid red;
+}
+.subscribe-input-wrapper {
+  text-align: left;
+}
+.subscribe-input-wrapper .uk-form-icon {
+  width: auto;
+  color: #9c2e1b;
+}
+.subscribe-input-block {
+  width: 100%;
+}
+
+.footer-bottom {
+  background: #161616;
+}
+.footer-bottom .uk-navbar-container {
+  background: inherit;
+}

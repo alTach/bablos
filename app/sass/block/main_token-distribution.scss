@@ -1,0 +1,26 @@
+.bb-token-distribution{
+    .block-subtitle{
+        margin-bottom: 78px;
+    }
+    &-card:last-child{
+        padding: 0;
+    }
+    &-text{
+        text-align: left;
+        li{
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    &-value{
+        width: 20%;
+        font-size: 19px;
+    }
+    &-description{
+        width: 67%;
+    }
+    &-volume{
+        text-align: left;
+        font-size: 35px;
+    }
+}

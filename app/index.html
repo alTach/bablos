@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link/>
+    <title>Document</title><!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css"/><!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script><!-- jQuery -->
+<!-- My style -->
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body uk-scrollspy="cls:uk-animation-fade">
+    <header>
+      <div class="bb-linsa">
+        <div class="header-navigation" uk-sticky="uk-sticky">
+          <nav class="uk-navbar-container uk-margin bb-navigation" uk-navbar="uk-navbar"> 
+            <div class="uk-navbar-left"><a class="uk-navbar-item uk-logo" href="#"> <img class="bb-logo-var-1 uk-animation-fade" src="../../img/header-logo-var-1.png" alt=""/><img class="bb-logo-var-2 uk-animation-fade uk-hidden" src="../../img/header-logo-var-2.png" alt=""/></a></div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                <li><a class="bb-nav__a" href="#">О фильме</a></li>
+                <li><a class="bb-nav__a" href="#">Условия</a></li>
+                <li><a class="bb-nav__a" href="#">Дорожная карта</a></li>
+                <li><a class="bb-nav__a" href="#">WhitePaper</a></li>
+                <li><a class="bb-nav__a" href="#">Команда</a></li>
+                <li><a class="bb-nav__a" href="#"> <span uk-icon="icon:  triangle-down"></span></a>
+                  <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                      <li><a>Россия</a></li>
+                      <li><a>Украина</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="uk-navbar-item">
+                <form action="javascript:void(0)">
+                  <button class="uk-button bb-btn bb-btn_nav uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">Приcоединиться      </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="uk-cover" hidden="hidden">
+          <video class="uk-cover-object autoplay loop" width="100%" height="100%">
+            <source src="../img/presentation.mp4" type=""/>
+          </video>
+        </div>
+        <div class="container uk-text-center">
+          <h1 class="product-name uk-margin-auto">ICO-кампания экранизации романа В. Пелевина «Empire V»</h1>
+          <p class="block-description uk-margin-auto">
+             Присоединяйтесь к приватной продаже токенов Bablos и  
+            получите бонус 30%, а так же прибыль от проката и продажи цифрового контента.
+          </p>
+          <div class="bb-countdown uk-margin-auto"><span class="bb-countdown-name">До старта Pre-ICO оcталось</span>
+            <hr class="bb-countdown-line"/>
+            <div class="bb-cotdown-time uk-child-width-1-4" uk-grid="uk-grid" uk-countdown="date: 2018-05-04T06:09:09+00:00">
+              <div>
+                <div class="bb-countdown-time-name">ДНЕЙ</div>
+                <div class="bb-countdown-time-number uk-countdown-number uk-countdown-days">18</div>
+              </div>
+              <div>
+                <div class="bb-countdown-time-name">ЧАСОВ</div>
+                <div class="bb-countdown-time-number uk-countdown-number uk-countdown-hours">18</div>
+              </div>
+              <div>
+                <div class="bb-countdown-time-name">МИНУТ</div>
+                <div class="bb-countdown-time-number uk-countdown-number uk-countdown-minutes">18</div>
+              </div>
+              <div>
+                <div class="bb-countdown-time-name">СЕКУНД</div>
+                <div class="bb-countdown-time-number uk-countdown-number uk-countdown-seconds">18</div>
+              </div>
+            </div>
+          </div><a class="bb-scroll-down" uk-icon="chevron-down" href="#target" uk-scroll="uk-scroll"></a>
+        </div>
+      </div>
+    </header>
+    <main>
+            <section class="bb-is-filming uk-light uk-flex section-bg" id="test-easing">
+              <div class="bb-linsa">
+                <div class="container">
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">идут съёмки</h3>
+                  <div class="bb-is-filming-video" style="width: 300px" uk-parallax="opacity: 0,1; viewport: 0.2"></div>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">«Empire V» – история молодого человека, сделавшего головокружительную карьеру, благодаря перевополощению в вампира. Фон этой истории – сенсационное открытие устройства человеческого общества как питательной среды сообщества вампиров.</div>
+                </div>
+              </div>
+            </section>
+            <section class="bb-actors section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">актёры</h3>
+                  <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid="uk-grid">
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act1.png"/></div>
+                        <p class="actor-role">РАМА</p><span class="actor-name">ПАВЕЛ ТАБАКОВ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act2.png"/></div>
+                        <p class="actor-role">ГЕРА</p><span class="actor-name">НОВАЯ ЗВЕЗДА</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act3.png"/></div>
+                        <p class="actor-role">МИТРА</p><span class="actor-name">OXXXIMIRON</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act4.png"/></div>
+                        <p class="actor-role">ИЕГОВА</p><span class="actor-name">КОНСТАНТИН БОГОМОЛОВ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act5.png"/></div>
+                        <p class="actor-role">БАЛЬДР</p><span class="actor-name">АНТОН АДАСИНСКИЙ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act6.png"/></div>
+                        <p class="actor-role">ИШТАР</p><span class="actor-name">НАТАЛЬЯ АНДРЕЙЧЕНКО</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act7.png"/></div>
+                        <p class="actor-role">ВААЛ</p><span class="actor-name">ЮРИЙ СТОЯНОВ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act8.png"/></div>
+                        <p class="actor-role">ЛОКИ</p><span class="actor-name">АНДРЕЙ СМИРНОВ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act9.png"/></div>
+                        <p class="actor-role">БРАМА</p><span class="actor-name">ВЛАДИМИР ЕПИФАНЦЕВ</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act10.png"/></div>
+                        <p class="actor-role">Энлиль</p><span class="actor-name">Вениамин смехов</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-actor-card" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">
+                        <div class="actor-img-wrapper"><img class="actor-img" src="../../img/actors/act11.png"/></div>
+                        <p class="actor-role">МАМА РАМЫ</p><span class="actor-name">МАРИНА ЗУДИНА</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-block-chain-finance section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">«Empire V» — первый блокбастер, финансируемый с помощью технологии Блокчейн</h3>
+                  <p class="block-chain-title" uk-parallax="opacity: 0,1; scale: 2 ; viewport: 0.5">
+                     Общее количество токенов Bablos</p>
+                  <p class="block-chain-count-money" uk-parallax="opacity: 0,1; scale: 2 ; viewport: 0.4"> <img class="icon-coin" src="../../img/icon-coin.png" alt=""/><span> 5 100 000</span></p>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center block-chain-category-list" uk-grid="uk-grid">
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Тип</p><span class="block-chain-category-name">ERC20</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Платформа</p><span class="block-chain-category-name">Ethereum</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Символ</p><span class="block-chain-category-name">BLS</span>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Размещение токенов будет проводиться в 2 этапа, приватный (Private Placement) и публичный (Token Sale).</div>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">8% nокенов распределяются между эдвайзерами, звездами проекта Ампир V, и направляются на баунти-программы; 9% остаются в резервном фонде на поддержание курса Bablos и развитие платформы.В продажу поступают 4 565 000 токенов Bablos.</div>
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">ПЕРСПЕКТИВЫ</p>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Мы создаём модель финансирования кино с помощью технологии блокчейн и смарт-контрактов, которая будет работать после премьеры фильма «Ампир V»  в виде платформы Bablos.</div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-target-sale-token section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">ЦЕЛЬ ПРОДАЖИ ТОКЕНОВ</p>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Целью сборов являются производство и рекламная кампания фильма, а так же привлечение новых звёзд и партнёров, что в свою очередь увеличит доходность для держателей токенов.</div>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center bb-target-sale" uk-grid="uk-grid">
+                    <div class="uk-card uk-card-body bb-target-sale-card"><span><img class="target-sale-card-img" src="../../img/target-sale-token-1.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.3"/></span>
+                      <p class="target-sale-card-value" uk-parallax="opacity: 0,1; viewport: 0.4">SoftCap</p>
+                      <p class="target-sale-card-name" uk-parallax="opacity: 0,1; viewport: 0.4">$5 100 000</p>
+                    </div>
+                    <div class="uk-card uk-card-body bb-target-sale-card"><span><img class="target-sale-card-img" src="../../img/target-sale-token-2.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.3"/></span>
+                      <p class="target-sale-card-value" uk-parallax="opacity: 0,1; viewport: 0.4">HardCap</p>
+                      <p class="target-sale-card-name" uk-parallax="opacity: 0,1; viewport: 0.4">$7 000 000</p>
+                    </div>
+                  </div>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">При достижении HardCap средства буду направлены на дополнительную компьютерную графику и поддержку международного проката, что, безусловно, повысит прибыль для инвесторов.</div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-main_pre-ico section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">PRE-ICO — 30% БОНУС</p>
+                        <p class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Приватное размещение будет проводиться в рамках ограниченной аллокации по единой цене.</p>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center bb-pre-ico-date" uk-grid="uk-grid">
+                          <div class="uk-card uk-card-body .pre-ico-date"><span class="bb-pre-ico-date-name" uk-parallax="opacity: 0,1; viewport: 0.4">Дата начала</span>
+                            <p class="bb-pre-ico-date-value-wrapper"><img src="../../img/calendar.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/><span class="bb-pre-ico-date-value" uk-parallax="opacity: 0,1; viewport: 0.4">10 марта 2018</span></p>
+                          </div>
+                          <div class="uk-card uk-card-body .pre-ico-date"><span class="bb-pre-ico-date-name" uk-parallax="opacity: 0,1; viewport: 0.4">Дата завершения</span>
+                            <p class="bb-pre-ico-date-value-wrapper"><img src="../../img/calendar.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/><span class="bb-pre-ico-date-value" uk-parallax="opacity: 0,1; viewport: 0.4">10 апреля 2018</span></p>
+                          </div>
+                  </div>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center block-chain-category-list" uk-grid="uk-grid">
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Количество токенов</p><span class="block-chain-category-name">Б 2 700 000</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uk-card block-chain-category"><img class="block-chain-category-coin" src="../../img/bablo-coin-obverse.png" alt="" uk-parallax="opacity: 0,1; rotate: 360; viewport: 0.5"/></div>
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Цена за токен</p><span class="block-chain-category-name">0,9 USD</span>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-public-placement section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">Публичное размещение</p>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Публичное размещение будет проводиться с экспотенциальным ростом цены за каждый следующий размещаемый токен.</div>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center bb-pre-ico-date" uk-grid="uk-grid">
+                          <div class="uk-card uk-card-body .pre-ico-date"><span class="bb-pre-ico-date-name" uk-parallax="opacity: 0,1; viewport: 0.4">Дата начала ICO</span>
+                            <p class="bb-pre-ico-date-value-wrapper"><img src="../../img/calendar.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/><span class="bb-pre-ico-date-value" uk-parallax="opacity: 0,1; viewport: 0.4">15 апреля 2018</span></p>
+                          </div>
+                  </div>
+                  <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center block-chain-category-list" uk-grid="uk-grid">
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Количество токенов</p><span class="block-chain-category-name">Б 2 700 000</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="uk-card block-chain-category"><img class="block-chain-category-coin" src="../../img/bablo-coin-reverse.png" alt="" uk-parallax="opacity: 0,1; rotate: 360; viewport: 0.5"/></div>
+                          <div class="uk-card uk-card-body block-chain-category"><img class="block-chain-category-img" src="../../img/shape.png" alt="" uk-parallax="opacity: 0,1; scale: 2 ; rotate: 360; viewport: 0.5"/>
+                            <div class="block-chain-category-text-wrapper" uk-parallax="opacity: 0,1; viewport: 0.5"> 
+                              <div class="block-chain-category-text">
+                                <p class="block-chain-category-title">Цена за токен</p><span class="block-chain-category-name">0,9 USD</span>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-token-distribution section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">Распределение токенов</p>
+                  <div class="uk-grid-large uk-child-width-1-2@s uk-flex-center uk-text-center bb-token-distribution-card-list" uk-grid="uk-grid">
+                    <div class="bb-token-distribution-card">
+                      <p class="bb-token-distribution-volume" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.4">Б 5 500 000</p>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3"></span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3"></span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">66,4%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Производство фильма</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">16,6%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Рекламная кампания и маркетинг</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">9%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Резервный фонд</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">8%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Эдвайзеры, звёзды, команда.</span></li>
+                      </ul>
+                    </div>
+                    <div class="bb-token-distribution-card">
+                      <div class="uk-card uk-card-body"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="433" height="249" viewBox="0 0 433 249"><defs><path id="uj62a" d="M984 5975.2c66.27 0 66.27-119.9 0-119.9-46.7 0-87.18-93.24-107-54.32-8.32 16.3-13 34.77-13 54.32 0 66.22 53.73 119.9 120 119.9z"/><path id="uj62b" d="M984 5974.8c66.27 0 120-53.68 120-119.9S1050.27 5735 984 5735c-34.5 0 21.9 96.6 0 119.9-20.15 21.45-42.18 119.9 0 119.9z"/><path id="uj62c" d="M983.78 5854.9c66.27 0 66.27-119.9 0-119.9a120 120 0 0 0-107 65.56c-8.32 16.3 40.72 54.34 107 54.34z"/><path id="uj62d" d="M984.32 5958.48c56.86 0 102.96-46.06 102.96-102.87 0-56.82-46.1-102.87-102.96-102.87-56.86 0 0 46.05 0 102.87 0 20.75-96.81 40.06-86.24 56.22a102.9 102.9 0 0 0 86.24 46.65z"/><path id="uj62e" d="M984.13 5752.74c-40 0-74.68 22.8-91.73 56.1-7.18 14.03 91.73 29.93 91.73 46.77 0 56.81 56.86-102.87 0-102.87z"/><path id="uj62f" d="M984.3 5752.74c-21.43 0-41.33 6.54-57.81 17.74-14.29 9.7 57.82 68.29 57.82 85.13 0 56.81 56.86-102.87 0-102.87z"/><path id="uj62g" d="M984 5855.76c-39.93 0-74.54-80.17-91.62-46.98a102.37 102.37 0 0 0-11.34 46.98c0 20.76 6.16 40.1 16.75 56.26 18.39 28.07 143.07-56.26 86.21-56.26z"/><path id="uj62h" d="M922 5764l-18.09-22.86a9.33 9.33 0 0 0-6.48-3.14H867l55 26"/><path id="uj62i" d="M1047 5764l18.09-22.86a9.33 9.33 0 0 1 6.48-3.14H1102l-55 26"/><path id="uj62j" d="M875 5840l-18.09-22.86a9.33 9.33 0 0 0-6.48-3.14H820l55 26"/></defs><g><g transform="translate(-739 -5727)"><g><use fill="#a18044" xlink:href="#uj62a"/></g><g><use fill="#886130" xlink:href="#uj62b"/></g><g><use fill="#d6b984" xlink:href="#uj62c"/></g><g><use fill="#2b2b2b" xlink:href="#uj62d"/></g><g><use fill="#565656" xlink:href="#uj62e"/></g><g><use fill="#666" xlink:href="#uj62f"/></g><g><use fill="#373737" xlink:href="#uj62g"/></g></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62h"/></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62i"/></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62j"/></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1115 5728)"><tspan style="font-kerning:normal">49%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(823 5728)"><tspan style="font-kerning:normal">17%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(775 5804)"><tspan style="font-kerning:normal">34%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1011 5855)"><tspan style="font-kerning:normal">66,4%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(892 5855)"><tspan style="font-kerning:normal">16,6%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(951 5776)"><tspan style="font-kerning:normal">9%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(912 5800)"><tspan style="font-kerning:normal">8%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(777 5752)"><tspan style="font-kerning:normal">Project Team</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1115 5748)"><tspan style="font-kerning:normal">Pre-Sale</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(740 5826)"><tspan style="font-kerning:normal">Token Sale</tspan></text></g></g></g></svg></div>
+                    </div>
+                  </div>
+                  <div class="uk-grid-large uk-child-width-1-2@s uk-flex-center uk-text-center bb-token-distribution-card-list" uk-grid="uk-grid">
+                    <div class="bb-token-distribution-card">
+                      <p class="bb-token-distribution-volume" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.4">Б 7 000 000</p>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3"></span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3"></span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">57%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Производство фильма</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">14%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Рекламная кампания и маркетинг</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">9%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Резервный фонд</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">8%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Эдвайзеры, звёзды, команда</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">6%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Компьютерная графика</span></li>
+                      </ul>
+                      <ul class="uk-list bb-token-distribution-text">
+                        <li class="bb-token-distribution-value"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">6%</span></li>
+                        <li class="bb-token-distribution-description"> <span uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">Развитие платформы</span></li>
+                      </ul>
+                    </div>
+                    <div class="bb-token-distribution-card">
+                      <div class="uk-card uk-card-body"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="433" height="249" viewBox="0 0 433 249"><defs><path id="uj62a" d="M984 5975.2c66.27 0 66.27-119.9 0-119.9-46.7 0-87.18-93.24-107-54.32-8.32 16.3-13 34.77-13 54.32 0 66.22 53.73 119.9 120 119.9z"/><path id="uj62b" d="M984 5974.8c66.27 0 120-53.68 120-119.9S1050.27 5735 984 5735c-34.5 0 21.9 96.6 0 119.9-20.15 21.45-42.18 119.9 0 119.9z"/><path id="uj62c" d="M983.78 5854.9c66.27 0 66.27-119.9 0-119.9a120 120 0 0 0-107 65.56c-8.32 16.3 40.72 54.34 107 54.34z"/><path id="uj62d" d="M984.32 5958.48c56.86 0 102.96-46.06 102.96-102.87 0-56.82-46.1-102.87-102.96-102.87-56.86 0 0 46.05 0 102.87 0 20.75-96.81 40.06-86.24 56.22a102.9 102.9 0 0 0 86.24 46.65z"/><path id="uj62e" d="M984.13 5752.74c-40 0-74.68 22.8-91.73 56.1-7.18 14.03 91.73 29.93 91.73 46.77 0 56.81 56.86-102.87 0-102.87z"/><path id="uj62f" d="M984.3 5752.74c-21.43 0-41.33 6.54-57.81 17.74-14.29 9.7 57.82 68.29 57.82 85.13 0 56.81 56.86-102.87 0-102.87z"/><path id="uj62g" d="M984 5855.76c-39.93 0-74.54-80.17-91.62-46.98a102.37 102.37 0 0 0-11.34 46.98c0 20.76 6.16 40.1 16.75 56.26 18.39 28.07 143.07-56.26 86.21-56.26z"/><path id="uj62h" d="M922 5764l-18.09-22.86a9.33 9.33 0 0 0-6.48-3.14H867l55 26"/><path id="uj62i" d="M1047 5764l18.09-22.86a9.33 9.33 0 0 1 6.48-3.14H1102l-55 26"/><path id="uj62j" d="M875 5840l-18.09-22.86a9.33 9.33 0 0 0-6.48-3.14H820l55 26"/></defs><g><g transform="translate(-739 -5727)"><g><use fill="#a18044" xlink:href="#uj62a"/></g><g><use fill="#886130" xlink:href="#uj62b"/></g><g><use fill="#d6b984" xlink:href="#uj62c"/></g><g><use fill="#2b2b2b" xlink:href="#uj62d"/></g><g><use fill="#565656" xlink:href="#uj62e"/></g><g><use fill="#666" xlink:href="#uj62f"/></g><g><use fill="#373737" xlink:href="#uj62g"/></g></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62h"/></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62i"/></g><g transform="translate(-739 -5727)"><use fill="#fff" fill-opacity="0" stroke="#fff" stroke-linecap="round" stroke-miterlimit="50" xlink:href="#uj62j"/></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1115 5728)"><tspan style="font-kerning:normal">49%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(823 5728)"><tspan style="font-kerning:normal">17%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(775 5804)"><tspan style="font-kerning:normal">34%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1011 5855)"><tspan style="font-kerning:normal">66,4%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(892 5855)"><tspan style="font-kerning:normal">16,6%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(951 5776)"><tspan style="font-kerning:normal">9%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="19" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(912 5800)"><tspan style="font-kerning:normal">8%</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(777 5752)"><tspan style="font-kerning:normal">Project Team</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(1115 5748)"><tspan style="font-kerning:normal">Pre-Sale</tspan></text></g></g><g transform="translate(-739 -5727)"><g fill="#fff" font-family="'PFDinDisplayPro','PFDinDisplayPro-Regular'" font-size="14" font-style="none" font-weight="400"><text dominant-baseline="text-before-edge" font-family="Helvetica, Arial, sans-serif" transform="translate(740 5826)"><tspan style="font-kerning:normal">Token Sale</tspan></text></g></g></g></svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      <div class="uk-divider-icon uk-margin-auto" uk-parallax="opacity: 0,6; viewport: 0.2"><img class="divider-img" src="../img/divider.png" alt="" uk-parallax="opacity: 0,6; scale: 2 ; rotate: 360; viewport: 0.3"/></div>
+            <section class="bb-close-cripto-premiere section-bg">
+              <div class="bb-linsa">
+                <div class="container"><img class="bb-close-cripto-premiere-img" src="../../img/close-premier.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/>
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">ЗАКРЫТАЯ КРИПТО-ПРЕМЬЕРА</p>
+                        <p class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Первые 400 человек, купивших минимальный пакет в 100 Bablos получат приглашниие на закрытую крипто-премьеру до официальной премьеры фильма.</p>
+                  <button class="uk-button bb-btn uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" uk-parallax="opacity: 0,1; viewport: 0.4">Приcоединиться      </button>
+                </div>
+              </div>
+            </section>
+            <section class="bb-stand-film-produsser section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">СТАНЬ ПРОДЮСЕРОМ ФИЛЬМА</h3>
+                  <div class="uk-grid-large uk-child-width-1-3@s uk-flex-center uk-text-center bb-stand-film-produsser-card-list" uk-grid="uk-grid">
+                    <div>
+                      <div class="uk-card uk-card-body">
+                        <p class="stand-film-produsser-name" uk-parallax=" opacity: 0,1; viewport: 0.2">Генеральный продюсер</p><img class="bb-stand-film-produsser-img-back" src="../../img/shape.png" alt="" uk-parallax=" rotate: 360; scale: 2; viewport: 0.2"/><img class="bb-stand-film-produsser-img-front" src="../../img/bablo-coin-obverse.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/>
+                        <p class="block-chain-category-name" uk-parallax=" opacity: 0,1; viewport: 0.2">Б 1 000 000</p>
+                        <button class="uk-button bb-btn uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" uk-parallax=" opacity: 0,1; viewport: 0.2">Оставить заявку      </button>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body">
+                        <p class="stand-film-produsser-name" uk-parallax=" opacity: 0,1; viewport: 0.2">Со-продюсер</p><img class="bb-stand-film-produsser-img-back" src="../../img/shape.png" alt="" uk-parallax=" rotate: 360; scale: 2; viewport: 0.2"/><img class="bb-stand-film-produsser-img-front" src="../../img/bablo-coin-obverse.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/>
+                        <p class="block-chain-category-name" uk-parallax=" opacity: 0,1; viewport: 0.2">Б 200 000</p>
+                        <button class="uk-button bb-btn uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" uk-parallax=" opacity: 0,1; viewport: 0.2">Оставить заявку      </button>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body">
+                        <p class="stand-film-produsser-name" uk-parallax=" opacity: 0,1; viewport: 0.2">ICO-продюсер</p><img class="bb-stand-film-produsser-img-back" src="../../img/shape.png" alt="" uk-parallax=" rotate: 360; scale: 2; viewport: 0.2"/><img class="bb-stand-film-produsser-img-front" src="../../img/bablo-coin-obverse.png" alt="" uk-parallax="opacity: 0,1; viewport: 0.4"/>
+                        <p class="block-chain-category-name" uk-parallax=" opacity: 0,1; viewport: 0.2">Б 10 000</p>
+                        <button class="uk-button bb-btn uk-padding-small uk-padding-remove-top uk-padding-remove-bottom" uk-parallax=" opacity: 0,1; viewport: 0.2">Оставить заявку      </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="bb-whats-can-do-bablos section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                  <article></article>
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">ЧТО МОЖНО ДЕЛАТЬ С BABLOS?</h3>
+                        <div class="block-description" uk-parallax="opacity: 0,1; viewport: 0.3">Токен Bablos предоставляет право на участие в прибыли компании от проката фильма. Все держатели Bablos имеют право  на получение прибыли пропорционально количеству приобретенных токенов.  50% прибыли компании, полученной в результате российского и мирового проката фильма и продаж прав на цифровые и ТВ-показы будет ежемесячно распределяться между держателями всех токенов Bablos.</div><img class="bb-oval bb-oval-0" src="../../img/oval-1.png" alt=""/><img class="bb-oval bb-oval-1" src="../../img/oval-2.png" alt=""/><img class="bb-oval bb-oval-2" src="../../img/oval-3.png" alt=""/><img class="bb-oval bb-oval-3" src="../../img/oval-4.png" alt=""/>
+                  <div class="uk-grid-large uk-child-width-1-4@s uk-flex-center uk-text-center bb-whats-can-do-bablos-card-list" uk-grid="uk-grid">
+                    <div>
+                      <div class="uk-card uk-card-body bb-whats-can-do-bablos-card"><img class="bb-whats-can-do-bablos-card-img" src="../../img/whats-can-do-bablos-0.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.4"/>
+                        <p class="bb-whats-can-do-bablos-name" uk-parallax="opacity: 0,1; viewport: 0.4">Хранить для получения прибыли от проката фильма </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-whats-can-do-bablos-card"><img class="bb-whats-can-do-bablos-card-img" src="../../img/whats-can-do-bablos-1.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.4"/>
+                        <p class="bb-whats-can-do-bablos-name" uk-parallax="opacity: 0,1; viewport: 0.4">Использовать в дальнейшем на платформе</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-whats-can-do-bablos-card"><img class="bb-whats-can-do-bablos-card-img" src="../../img/whats-can-do-bablos-2.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.4"/>
+                        <p class="bb-whats-can-do-bablos-name" uk-parallax="opacity: 0,1; viewport: 0.4">Использовать на платформе для доступа к он-лайн премьере «Ампир V»</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-card uk-card-body bb-whats-can-do-bablos-card"><img class="bb-whats-can-do-bablos-card-img" src="../../img/whats-can-do-bablos-3.png" uk-parallax="opacity: 0,1; scale: 2; viewport: 0.4"/>
+                        <p class="bb-whats-can-do-bablos-name" uk-parallax="opacity: 0,1; viewport: 0.4">Обменять на другие криптовалюты или фиатные деньги</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="bb-road-map section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <h3 class="block-name" uk-parallax="opacity: 0, 0.5, 1; viewport: 0.2">ДОРОЖНАЯ КАРТА</h3>
+                  <div class="road-card-container" id="qweqwe">
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card circle-active">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">МАРТ 2018</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Старт ICO проекта Ампир V</li>
+                            <li>Регистрация Компании</li>
+                            <li>Приватный пре-сейл</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">2 квартал 2018</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Выпуск токена Bablos</li>
+                            <li>Публичное размещение</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">2-4 квартал 2019</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Продолжение съемок фильма «Ампир V»</li>
+                            <li>Post-Poduction и компьютерная графика</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">Конец 2018</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Завершение производства фильма «Ампир V»</li>
+                            <li>Масштабные рекламная и пиар кампании</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">1 квартал 2019</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Премьера «Ампир V»</li>
+                            <li>Начало начисления прибыли на токены Bablos</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">2019</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Накопительная доходность от продажи прав на проект: кинопроката; он-лайн продажи; ТВ; DVD.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="uk-text-center road-card-list" uk-grid="uk-grid" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+                      <div class="uk-width-auto road-card">
+                        <div class="uk-card uk-card-body road-card_circle uk-card-body"> </div>
+                      </div>
+                      <div class="uk-width-auto road-card road-card_date">
+                        <div class="uk-card uk-card-body">2 квартал 2019</div>
+                      </div>
+                      <div class="uk-width-expand road-card road-card_line">
+                        <div class="uk-card uk-card-body"> 
+                          <hr/>
+                        </div>
+                      </div>
+                      <div class="uk-width-1-2 road-card road-card_text">
+                        <div class="uk-card uk-card-body">
+                          <ul>
+                            <li>Разработка основного функционала платформы</li>
+                            <li>Привлечение на платформу новых проектов</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="bb-main_about-us section-bg">
+              <div class="bb-linsa">
+                <div class="container">
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">МЕДИА О НАС</p>
+                  <div class="uk-grid-large uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid="uk-grid">
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/about-us-media-0.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/about-us-media-1.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/about-us-media-2.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/about-us-media-3.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                  </div>
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">ПАРТНЁРЫ</p>
+                  <div class="uk-grid-large uk-child-width-1-3@s uk-flex-center uk-text-center" uk-grid="uk-grid">
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/partner-0.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/partner-1.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                    <div><img class="uk-card uk-card-body bb-whats-can-do-bablos-card" src="../../img/partner-2.png" alt="" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"/></div>
+                  </div>
+                        <p class="block-subtitle" uk-parallax="opacity: 0,1; viewport: 0.4">ЮРИДИЧЕСКОЕ СТРУКТУРИРОВАНИЕ</p>
+                  <p class="about-us-lawyer-description" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">С целью защиты прав инвесторов будет создана компания, выпускающая токены, которая будет действовать полностью в рамках правового поля, и будет предоставлять инвесторам право на получение прибыли и безопасность их инвестиций. </p>
+                  <p class="about-us-lawyer-description" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">Эта компания будет существовать специально для работы с инвесторами и выпуска токенов на основании специального соглашения. </p>
+                  <p class="about-us-lawyer-description" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">Вся деятельность компании, выпускающей фильм и заключающей договоры о прокате (операционная деятельность), отделена от компании-эмитента, вкупе с любыми претензиями к первой компании. Гарантии получения прибыли компанией-эмитентом будут заложены в соглашение с компанией-правообладателем.</p>
+                  <p class="about-us-lawyer-description" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5"></p>
+                </div>
+              </div>
+            </section>
+    </main>
+    <footer>
+      <section class="footer-top">
+        <div class="container">
+          <div class="footer-top card-list uk-clearfix">
+            <div class="footer-top-card subscribe">
+              <p class="subscribe-name subscribe-name_left">Подписаться на новости</p>
+              <form>
+                <div class="uk-margin subscribe-input-wrapper">
+                  <div class="uk-inline subscribe-input-block"><a class="uk-form-icon uk-form-icon-flip" href="#">Подписаться</a>
+                    <input class="uk-input subscribe-input" type="text" placeholder="Введите email"/>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="footer-top-card in-social">
+              <p class="subscribe-name">Мы в социальных сетях</p>
+              <div><span class="in-social-icon" uk-icon="facebook"></span><span class="in-social-icon" uk-icon="twitter"></span><span class="in-social-icon" uk-icon="instagram"></span><span class="in-social-icon" uk-icon="youtube"></span><span class="in-social-icon" uk-icon="heart"></span><span class="in-social-icon" uk-icon="linkedin"></span><span class="in-social-icon" uk-icon="github"></span>
+              </div>
+            </div>
+            <div class="footer-top-card to-discussion">
+              <p class="subscribe-name">Общайтесь</p>
+              <div><span class="in-social-icon" uk-icon="" id="footre-region-ru">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 1792 1792" width="20">
+                    <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z"></path>
+                  </svg></span>
+                <label for="footer-region-ru">Русский</label><span class="in-social-icon" uk-icon="" id="footre-region-ru">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 1792 1792" width="20">
+                    <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z"></path>
+                  </svg></span>
+                <label for="footer-region-en">Английский</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <div class="container">
+          <nav class="uk-navbar-container" uk-navbar="uk-navbar">
+            <div class="uk-navbar-left">
+              <ul class="uk-navbar-nav">
+                <li><a href="#">2018 © Баблос Интертеймент</a></li>
+              </ul>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                <li><a href="#">О фильме</a></li>
+                <li><a href="#">Условия</a></li>
+                <li><a href="#">Дорожная карта</a></li>
+                <li><a href="#">White Paper</a></li>
+                <li><a href="#">Команда</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
