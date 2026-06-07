@@ -1,8 +1,12 @@
 @import "./variables.scss";
 
+
 footer section > .container{
-    width: 1239px;
+
     margin: 0 auto;
+    @media (width >= 1250px) {
+        width: 1239px;
+    }
 }
 .footer-top{
     margin-bottom: 38px;
@@ -25,7 +29,7 @@ footer section > .container{
             padding: 7px;
             border-radius: 50%;
             color: $primary-color;
-            background: url(../../img/send-icon.svg);
+            background: url(./img/send-icon.svg);
         }
     }
     .to-discussion{

@@ -45,9 +45,15 @@ a{
   position: relative;
 }
 main section .bb-linsa > .container{
-  width: 1084px;
   margin: 0 auto;
 }
+
+@media (width >= 1250px) {
+  main section .bb-linsa > .container {
+    width: 1084px;
+  }
+}
+
 .block-description{
   max-width: 844px;
   margin: 0 auto 53px;
@@ -79,22 +85,22 @@ section.section-bg{
 /***Fonts***/
 @font-face {
   font-family: "pfdindisplaypro";
-  src: url("../fonts/pfdindisplaypro-reg.eot");
-  src: url("../fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/pfdindisplaypro-reg.woff") format("woff"),
-    url("../fonts/pfdindisplaypro-reg.ttf") format("truetype");
+  src: url("./fonts/pfdindisplaypro-reg.eot");
+  src: url("./fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/pfdindisplaypro-reg.woff") format("woff"),
+    url("./fonts/pfdindisplaypro-reg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/futura.eot");
-  src: url("../fonts/futura.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/futura.woff") format("woff"),
-    url("../fonts/futura.ttf") format("truetype");
+  src: url("./fonts/futura.eot");
+  src: url("./fonts/futura.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/futura.woff") format("woff"),
+    url("./fonts/futura.ttf") format("truetype");
 }
 @font-face {
   font-family: "Futura-Bold";
-  src: url("../fonts/Futura-Bold.eot");
-  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Futura-Bold.woff") format("woff"),
-    url("../fonts/Futura-Bold.ttf") format("truetype");
+  src: url("./fonts/Futura-Bold.eot");
+  src: url("./fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Futura-Bold.woff") format("woff"),
+    url("./fonts/Futura-Bold.ttf") format("truetype");
 }

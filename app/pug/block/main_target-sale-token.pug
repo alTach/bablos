@@ -13,7 +13,7 @@ include ../mixin/block-description
             each card, index in [{name: "SoftCap", value: "$5 100 000"}, {name: "HardCap", value: "$7 000 000"}]
                 div(class="uk-card uk-card-body bb-target-sale-card")
                         span
-                            img.target-sale-card-img(src="../../img/target-sale-token-" + (index+1) + ".png", uk-parallax="opacity: 0,1; scale: 2; viewport: 0.3")
+                            img.target-sale-card-img(src="./img/target-sale-token-" + (index+1) + ".png", uk-parallax="opacity: 0,1; scale: 2; viewport: 0.3")
                         p.target-sale-card-value(uk-parallax="opacity: 0,1; viewport: 0.4")= card.name
                         p.target-sale-card-name(uk-parallax="opacity: 0,1; viewport: 0.4")= card.value
     

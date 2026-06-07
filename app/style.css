@@ -4,7 +4,7 @@
 }
 
 .uk-divider-icon {
-  width: 960px;
+  max-width: 960px;
   height: 47px;
   background: none;
   position: relative;
@@ -94,10 +94,14 @@ a {
 }
 
 main section .bb-linsa > .container {
-  width: 1084px;
   margin: 0 auto;
 }
 
+@media (width >= 1250px) {
+  main section .bb-linsa > .container {
+    width: 1084px;
+  }
+}
 .block-description {
   max-width: 844px;
   margin: 0 auto 53px;
@@ -132,18 +136,18 @@ section.section-bg {
 /***Fonts***/
 @font-face {
   font-family: "pfdindisplaypro";
-  src: url("../fonts/pfdindisplaypro-reg.eot");
-  src: url("../fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"), url("../fonts/pfdindisplaypro-reg.woff") format("woff"), url("../fonts/pfdindisplaypro-reg.ttf") format("truetype");
+  src: url("./fonts/pfdindisplaypro-reg.eot");
+  src: url("./fonts/pfdindisplaypro-reg.eot?#iefix") format("embedded-opentype"), url("./fonts/pfdindisplaypro-reg.woff") format("woff"), url("./fonts/pfdindisplaypro-reg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/futura.eot");
-  src: url("../fonts/futura.eot?#iefix") format("embedded-opentype"), url("../fonts/futura.woff") format("woff"), url("../fonts/futura.ttf") format("truetype");
+  src: url("./fonts/futura.eot");
+  src: url("./fonts/futura.eot?#iefix") format("embedded-opentype"), url("./fonts/futura.woff") format("woff"), url("./fonts/futura.ttf") format("truetype");
 }
 @font-face {
   font-family: "Futura-Bold";
-  src: url("../fonts/Futura-Bold.eot");
-  src: url("../fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Bold.woff") format("woff"), url("../fonts/Futura-Bold.ttf") format("truetype");
+  src: url("./fonts/Futura-Bold.eot");
+  src: url("./fonts/Futura-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Futura-Bold.woff") format("woff"), url("./fonts/Futura-Bold.ttf") format("truetype");
 }
 /*nav*/
 .bb-navigation {
@@ -583,8 +587,12 @@ main {
 }
 
 footer section > .container {
-  width: 1239px;
   margin: 0 auto;
+}
+@media (width >= 1250px) {
+  footer section > .container {
+    width: 1239px;
+  }
 }
 
 .footer-top {
@@ -608,7 +616,7 @@ footer section > .container {
   padding: 7px;
   border-radius: 50%;
   color: #9c2e1b;
-  background: url(../../img/send-icon.svg);
+  background: url(./img/send-icon.svg);
 }
 .footer-top .to-discussion {
   float: right;

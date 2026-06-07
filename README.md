@@ -1,18 +1,20 @@
 # Bablos
 
-Простой лендинг-проект на Gulp, Sass и Pug.
+**Simple landing project using Gulp, Sass, and Pug.**
 
-- Один из моих первых проектов — март 2028 года.
-- Ссылка на проект: https://bablos.com/
+- One of my first projects — March 2028.
+- Project link prod: https://bablos.com
+- Project link dev: https://altach.github.io/bablos
 
-## О проекте
+## About the project
 
-Этот проект собирает стили из `app/sass/style.scss` и шаблоны Pug из `app/pug/index.pug`, а затем запускает локальный сервер BrowserSync из папки `app`.
+This project compiles styles from `app/sass/style.scss` and Pug templates from `app/pug/index.pug`, then runs a local BrowserSync server from the `app` folder.
 
+> **Note:** This is a non-adaptive (not responsive) version.
 ## Запуск
 
 ```bash
 npm ci
 npm start
 ```
-![Ссылка на фото](example.png)
+![link to picture](example.png)
